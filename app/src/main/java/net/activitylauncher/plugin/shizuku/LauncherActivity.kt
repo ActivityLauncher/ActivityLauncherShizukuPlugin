@@ -19,7 +19,7 @@ class LauncherActivity : AppCompatActivity(), CoroutineScope {
 
     companion object {
         const val ACTION_LAUNCH_ACTIVITY = "activitylauncher.intent.action.LAUNCH_ACTIVITY"
-        const val EXTRA_INTENT = "extra_intent"
+        const val EXTRA_INTENT = "intent"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
